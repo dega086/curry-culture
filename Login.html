@@ -1,14 +1,14 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <title>Only Ghosals'</title> 
-    <link rel="stylesheet" href="PDL2.css"> <!-- Linking the CSS file -->
-    <style> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="Main.css"> <!-- Linking the CSS file -->
+    <style>
         /* Background Styling */
-        body { 
+        body {
             background-image: url(https://t3.ftcdn.net/jpg/02/06/04/70/240_F_206047084_OxZGQ404N8rocQmItLIQRMRWlQwV3mSH.jpg);
             background-repeat: no-repeat;
-            background-attachment: fixed;  
+            background-attachment: fixed;
             background-size: cover;
             color: white;
             font-family: 'Poppins', sans-serif;
@@ -39,7 +39,7 @@
         }
 
         /* Input Fields */
-        input[type="text"], input[type="password"], input[type="tel"] {
+        input[type="text"], input[type="password"], input[type="tel"], input[type="email"] {
             width: 100%;
             padding: 10px;
             border: none;
@@ -70,37 +70,37 @@
             background: #f09819;
             transform: scale(1.05);
         }
-    </style> 
-</head> 
+    </style>
+</head>
 
-<body> 
+<body>
     <div class="form-container">
-        <h3>WELCOME TO RESTOBOOK !</h3> 
-        <br> 
+        <h3>WELCOME TO RESTOBOOK !</h3>
+        <br>
 
         <form action="HOME.html" method="get"> <!-- Redirects to PDL1.html -->
-            <table> 
-                <tr> 
+            <table>
+                <tr>
                     <td>NAME:</td>
-                    <td><input type="text" name="name" placeholder="Enter your name" required /></td> 
-                </tr> 
-                <tr> 
-                    <td>EMAIL ID:</td>  
-                    <td><input type="text" name="email" placeholder="Enter your email" required /></td> 
-                </tr> 
-                <tr> 
-                    <td>PASSWORD:</td> 
-                    <td><input type="password" name="password" placeholder="Enter password" required /></td> 
-                </tr> 
-                <tr> 
-                    <td>PHONE NUMBER:</td> 
-                    <td><input type="tel" name="phone" placeholder="Enter phone number" required /></td> 
-                </tr> 
-                <tr> 
-                    <td colspan="2"><input type="submit" name="submit" value="Submit" /></td> 
-                </tr> 
-            </table> 
-        </form> 
+                    <td><input type="text" name="name" placeholder="Enter your name" required /></td>
+                </tr>
+                <tr>
+                    <td>EMAIL ID:</td>
+                    <td><input type="email" name="email" placeholder="Enter your email" required /></td>
+                </tr>
+                <tr>
+                    <td>PASSWORD:</td>
+                    <td><input type="password" name="password" placeholder="Enter password" minlength="8" required /></td>
+                </tr>
+                <tr>
+                    <td>PHONE NUMBER:</td>
+                    <td><input type="tel" name="phone" placeholder="Enter phone number" pattern="\d{10,}" title="Phone number should be at least 10 digits long" required /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" name="submit" value="Submit" /></td>
+                </tr>
+            </table>
+        </form>
     </div>
-</body> 
+</body>
 </html>
