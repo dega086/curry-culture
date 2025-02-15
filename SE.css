@@ -12,6 +12,16 @@ body {
     color: #333;
     text-align: center;
 }
+body {
+    background-image: url(https://www.carbonaraapp.com/wp-content/uploads/2021/06/restaurant-booking-app-rambla.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
 
 /* Header */
 header {
