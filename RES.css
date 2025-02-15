@@ -5,13 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 body {
-    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background: url('https://content.jdmagicbox.com/comp/def_content_category/restaurants-and-bars/55c867ca09-1--restaurants-and-bars-14-m6o3f.jpg') no-repeat center/cover;
+    background-size: cover;
     color: #333;
     text-align: center;
 }
-
 
 header {
     background: linear-gradient(to right, #6a11cb, #2575fc);
