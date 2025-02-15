@@ -54,10 +54,9 @@ nav a:hover {
     text-align: center;
     padding: 60px 20px;
     background: url('https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?t=st=1739525555~exp=1739529155~hmac=38374e0f9e5c8f97e9e16bc9db66e1e121be15cdf11c803c7e0b010ae97521b2&w=1060') no-repeat center/cover;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    margin: 20px;
+    background-size: cover;
+    color:#ffffff;
+    text-align: center;
 }
 
 .hero h2 {
