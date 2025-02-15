@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Body */
 body {
     background: linear-gradient(to right, #ff9a9e, #fad0c4);
     color: #333;
     text-align: center;
 }
 
-/* Header */
 header {
     background: linear-gradient(to right, #6a11cb, #2575fc);
     color: white;
@@ -31,7 +28,6 @@ header p {
     font-weight: bold;
 }
 
-/* Navigation Bar */
 nav {
     display: flex;
     justify-content: center;
@@ -54,11 +50,10 @@ nav a:hover {
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: url('images/restaurant-bg.jpg') no-repeat center/cover;
+    background: url('https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?t=st=1739525555~exp=1739529155~hmac=38374e0f9e5c8f97e9e16bc9db66e1e121be15cdf11c803c7e0b010ae97521b2&w=1060') no-repeat center/cover;
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -91,13 +86,4 @@ nav a:hover {
 .hero button:hover {
     background: #f09819;
     transform: scale(1.1);
-}
-
-/* Footer */
-footer {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    color: white;
-    padding: 15px 0;
-    margin-top: 30px;
-    font-weight: bold;
 }
